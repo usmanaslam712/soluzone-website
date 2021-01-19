@@ -1,0 +1,124 @@
+/* Title Section */
+#title .container-fluid {
+    /* Over here the parent selector that is #title will look for a child selector that is .container-fluid and place in the changes mentioned */
+    padding: 3% 15%;
+    text-align: left;
+}
+/* On mobile version the alignment of the title image width will change */
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        width: 80%;
+    }
+}
+
+/* Body section */
+body{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+.container-fluid{
+    padding: 7% 10%;
+}
+
+/* Main colors that decide how the site looks like */
+.colored-section {
+    background-color: #6a097d;
+    color: white;
+}
+.white-section {
+
+}
+
+/* Major headings that are using the h1 tag */
+.major-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+/* Navbar section */
+.navbar {
+    padding: 2rem;
+}
+.navbar-brand{
+    font-family: 'Ubuntu';
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.navbar-item {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    font-size: 1.2rem;
+}
+.nav-link {
+    font-weight: 200;
+}
+
+/* Download button */
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+
+/* features section */
+
+.features-heading {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+.fa-check-circle:hover {
+    color: blueviolet;
+}
+.fa-book-open:hover {
+    color: blueviolet;
+}
+.fa-heart:hover {
+    color: blueviolet;
+}
+
+/* Testimonials section */
+.testimnonials-heading {
+    font-family: 'Montserrat';
+    font-size: 3rem;
+}
+.testimonial-image{
+    width: 15%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/* Press Section */
+#press {
+    padding-bottom: 5%;
+
+}
+.press-image{
+    width: 15%;
+    margin-top: 50px;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+/* Plans section */
+#Plans {
+    padding: 100px;
+}
+.pricing-column{
+    padding-left: 2%;
+    padding-right: 3%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+/* Ending section */
+/* Nothing to add here presently. */
+
+/* Footer */
+.socials {
+    margin-bottom: 2%;
+}
